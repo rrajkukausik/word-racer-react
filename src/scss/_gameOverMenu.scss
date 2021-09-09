@@ -1,0 +1,88 @@
+.game-over{
+    color: #490804;
+    font-size: 42px;
+}
+
+.playagain-button {
+    position: absolute;
+    width: 250px;
+    height: 46px;
+    left: 540px;
+    top: 230px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    align-items: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }
+
+  .savescore-button{
+    position: absolute;
+    width: 250px;
+    height: 46px;
+    left: 540px;
+    top: 300px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }
+
+
+  .highscore-button{
+    position: absolute;
+    width: 250px;
+    height: 46px;
+    left: 540px;
+    top: 370px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    align-items: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }
+
+  .allscore-button{
+    position: absolute;
+    width: 250px;
+    height: 46px;
+    left: 540px;
+    top: 440px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    align-items: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }

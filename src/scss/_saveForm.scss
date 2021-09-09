@@ -1,0 +1,60 @@
+.saveform-box{
+    background: $secondary-color;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    position: absolute;
+    width: 640px;
+    height: 180px;
+    left: 310px;
+    top: 200px;
+    border: 10px solid #5624df;
+}
+.savescorefinal-button{
+    position: absolute;
+    width: 210px;
+    height: 46px;
+    left: 540px;
+    top: 460px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }
+
+  .backform-button{
+    position: absolute;
+    width: 210px;
+    height: 46px;
+    left: 540px;
+    top: 530px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }
+
+  #saved-text{
+    padding-top: 20px;
+    font-family:raleway;
+    font-size: 34px;
+  }

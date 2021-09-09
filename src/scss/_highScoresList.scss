@@ -1,0 +1,76 @@
+.highscores-container {
+  background: linear-gradient($primary-color, rgb(152, 88, 224));
+  height: 100vh;
+  margin: 0px;
+}
+
+.highscores-box {
+  background: $secondary-color;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  position: absolute;
+  width: 700px;
+  height: 520px;
+  left: 310px;
+  top: 40px;
+  border: 10px solid #5624df;
+}
+
+.highscores-header {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  color: $primary-color;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.highscores-button {
+  position: absolute;
+  width: 200px;
+  height: 46px;
+  left: 550px;
+  top: 590px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  color: $secondary-color;
+  background-color: $primary-color;
+  border-radius: 20px;
+  &:hover {
+    box-shadow: 0 0 12px 0 #1f272b;
+    transform: scale(1.07, 1.07);
+  }
+}
+.statistics {
+  display: flex;
+  margin-top:0px;
+
+}
+.statistics > h1 {
+  font-family: Raleway;
+  color: $primary-color;
+  margin: 1em;
+  letter-spacing: 0.1em;
+  padding-left: 10em;
+  font-size: 12px;
+}
+.allstatistics {
+  display: flex;
+  margin-top:0px;
+
+}
+.allstatistics > h1 {
+  font-family: Raleway;
+  color: $primary-color;
+  margin: 1em;
+  letter-spacing: 0.1em;
+  padding-left: 5em;
+  font-size: 12px;
+}

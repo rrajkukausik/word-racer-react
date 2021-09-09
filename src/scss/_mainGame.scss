@@ -1,0 +1,26 @@
+.game-container {
+    background: linear-gradient($primary-color, rgb(152, 88, 224));
+    height: 100vh;
+    margin: 0px;
+  }
+  .start-button {
+    position: absolute;
+    width: 210px;
+    height: 46px;
+    left: 580px;
+    top: 590px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    &:hover {
+      box-shadow: 0 0 12px 0 #1f272b;
+      transform: scale(1.07, 1.07);
+    }
+  }

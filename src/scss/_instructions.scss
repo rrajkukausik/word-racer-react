@@ -1,0 +1,67 @@
+.instructions-container {
+  background:  linear-gradient($primary-color, rgb(152, 88, 224));
+  height: 100vh;
+}
+
+.instructions-box {
+  background: $secondary-color;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  position: absolute;
+  width: 580px;
+  height: 520px;
+  left: 380px;
+  top: 50px;
+  border: 10px solid #5624df;
+}
+
+.instructions-header {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 85px;
+  color: $primary-color;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.instructions-description {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: $primary-color;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.instructions-list {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 20px;
+  color: $primary-color;
+  padding-right: 5px;
+  text-align: left;
+}
+
+.instructions-button {
+  position: absolute;
+  width: 290px;
+  height: 46px;
+  left: 160px;
+  top: 450px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  color: $secondary-color;
+  background-color: $primary-color;
+  border-radius: 20px;
+  &:hover {
+    box-shadow: 0 0 12px 0 #1f272b;
+    transform: scale(1.07, 1.07);
+  }
+}
