@@ -2,6 +2,8 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#565dfa), to(#9858e0));
   background: linear-gradient(#565dfa, #9858e0);
   height: 100vh;
+  width: 100vw;
+  min-width: 600px;
 }
 
 .instructions-box {
@@ -9,9 +11,10 @@
   border-top-left-radius: 90px;
   border-bottom-right-radius: 90px;
   position: absolute;
-  width: 580px;
+  min-width: 600px;
+  width: 40vw;
   height: 520px;
-  left: 380px;
+  left: 30%;
   top: 50px;
   border: 10px solid #5624df;
 }
@@ -50,7 +53,7 @@
   position: absolute;
   width: 290px;
   height: 46px;
-  left: 160px;
+  left: 25%;
   top: 450px;
   font-family: Raleway;
   font-style: normal;
@@ -202,23 +205,64 @@
           transform: scale(1.07, 1.07);
 }
 
-.scorebar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #8b06e4;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  width: auto;
+@media (min-width: 200px) and (max-width: 480px) {
+  .scorebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #8b06e4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+  }
+  .scorebar > h1 {
+    font-family: Raleway;
+    color: white;
+    margin: 1em;
+    letter-spacing: 0.1em;
+    padding-left: 3em;
+    font-size: 10px;
+  }
 }
 
-.scorebar > h1 {
-  font-family: Raleway;
-  color: white;
-  margin: 1em;
-  letter-spacing: 0.1em;
-  padding-left: 5em;
-  font-size: 34px;
+@media (min-width: 481px) and (max-width: 768px) {
+  .scorebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #8b06e4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+  }
+  .scorebar > h1 {
+    font-family: Raleway;
+    color: white;
+    margin: 1em;
+    letter-spacing: 0.1em;
+    padding-left: 3em;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 769px) {
+  .scorebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #8b06e4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+  }
+  .scorebar > h1 {
+    font-family: Raleway;
+    color: white;
+    margin: 1em;
+    letter-spacing: 0.1em;
+    padding-left: 5em;
+    font-size: 34px;
+  }
 }
 
 .keyboard {
@@ -267,7 +311,7 @@
   position: absolute;
   width: 250px;
   height: 46px;
-  left: 540px;
+  left: 38%;
   top: 230px;
   font-family: Raleway;
   font-style: normal;
@@ -293,7 +337,7 @@
   position: absolute;
   width: 250px;
   height: 46px;
-  left: 540px;
+  left: 38%;
   top: 300px;
   font-family: Raleway;
   font-style: normal;
@@ -316,7 +360,7 @@
   position: absolute;
   width: 250px;
   height: 46px;
-  left: 540px;
+  left: 38%;
   top: 370px;
   font-family: Raleway;
   font-style: normal;
@@ -342,7 +386,7 @@
   position: absolute;
   width: 250px;
   height: 46px;
-  left: 540px;
+  left: 38%;
   top: 440px;
   font-family: Raleway;
   font-style: normal;
@@ -369,9 +413,10 @@
   border-top-left-radius: 90px;
   border-bottom-right-radius: 90px;
   position: absolute;
-  width: 640px;
+  width: 30%;
+  min-width: 640px;
   height: 180px;
-  left: 310px;
+  left: 23%;
   top: 200px;
   border: 10px solid #5624df;
 }
@@ -380,7 +425,7 @@
   position: absolute;
   width: 210px;
   height: 46px;
-  left: 540px;
+  left: 38%;
   top: 460px;
   font-family: Raleway;
   font-style: normal;
@@ -409,7 +454,7 @@
   position: absolute;
   width: 210px;
   height: 46px;
-  left: 540px;
+  left: 38%;
   top: 530px;
   font-family: Raleway;
   font-style: normal;
@@ -442,7 +487,8 @@
 
 .stack-box {
   border: 2px solid white;
-  height: 90px;
+  height: auto;
+  min-height: 90px;
   margin-top: 25px;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.288);
