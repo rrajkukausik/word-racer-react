@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Api = "http://localhost:4000/api/";
+const Api = "https://word-racer-api.herokuapp.com/api";
 //This Component shows leaderboard on the Application.
 const ScoreList = () => {
   const classes = useStyles();

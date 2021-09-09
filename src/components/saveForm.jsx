@@ -45,7 +45,7 @@ export default function SaveForm() {
   const handleSave = async () => {
     const data = { name, email, score, level };
     await axios
-      .post("http://localhost:4000/api/player/", data)
+      .post("https://word-racer-api.herokuapp.com/api/player/", data)
       .then((res) => {
         if (res.data.success) {
           insertSavedText();

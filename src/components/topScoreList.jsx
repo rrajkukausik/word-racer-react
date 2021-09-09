@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Api = "http://localhost:4000/api/";
+const Api = "https://word-racer-api.herokuapp.com/api/";
 
 //This Component shows Top Players on the Application.
 const HighScoreList = () => {
