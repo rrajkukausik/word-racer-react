@@ -1,16 +1,56 @@
-.scorebar {
-  display: flex;
-  background-color: #8b06e4;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  width: auto;
+
+@media (min-width: 200px) and (max-width: 480px ) {
+  .scorebar {
+    display: flex;
+    background-color: #8b06e4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+  }
+  
+  .scorebar > h1 {
+    font-family: Raleway;
+    color: white;
+    margin: 1em;
+    letter-spacing: 0.1em;
+    padding-left: 3em;
+    font-size: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .scorebar {
+    display: flex;
+    background-color: #8b06e4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+  }
+  
+  .scorebar > h1 {
+    font-family: Raleway;
+    color: white;
+    margin: 1em;
+    letter-spacing: 0.1em;
+    padding-left: 3em;
+    font-size: 18px;
+  }
 }
 
-.scorebar > h1 {
-  font-family: Raleway;
-  color: white;
-  margin: 1em;
-  letter-spacing: 0.1em;
-  padding-left: 5em;
-  font-size: 34px;
+@media (min-width: 769px) {
+  .scorebar {
+    display: flex;
+    background-color: #8b06e4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: auto;
+  }
+  
+  .scorebar > h1 {
+    font-family: Raleway;
+    color: white;
+    margin: 1em;
+    letter-spacing: 0.1em;
+    padding-left: 5em;
+    font-size: 34px;
+  }
 }

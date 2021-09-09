@@ -62,6 +62,7 @@ export default function Game() {
       } else {
         Beep();
         setCurrentInput("");
+        setMultiplier(1);
       }
     }
   };
